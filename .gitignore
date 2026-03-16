@@ -1,0 +1,81 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------
+# Virtual environments
+# ----------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------
+# uv (Python package manager)
+# ----------------------
+.uv/
+uv.lock
+
+# ----------------------
+# Environment variables / secrets
+# ----------------------
+.env
+.env.*
+*.env
+
+# API keys / config
+secrets.json
+config.local.json
+
+# ----------------------
+# LLM / AI artifacts
+# ----------------------
+models/
+checkpoints/
+embeddings/
+vector_store/
+chroma_db/
+faiss_index/
+*.bin
+*.pt
+*.kiro
+
+# ----------------------
+# Logs
+# ----------------------
+logs/
+*.log
+
+# ----------------------
+# Jupyter notebooks
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Testing
+# ----------------------
+.coverage
+.pytest_cache/
